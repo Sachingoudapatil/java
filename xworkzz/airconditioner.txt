@@ -1,0 +1,23 @@
+abstract class AirConditioner
+{
+public static void main(String[] args)
+{
+
+}
+public void sound ();
+{
+
+}
+public void cooler();
+{
+
+}
+void air();
+{
+
+}
+public abstract void remote();
+{
+
+}
+}
