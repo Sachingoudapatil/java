@@ -1,6 +1,6 @@
 package com.xworkz.internal;
 
-public class Bank implements BankRule{
+public class Bank implements BankRule {
 
 	@Override
 	public boolean silence() {

@@ -2,38 +2,36 @@ package com.xworkz.internal;
 
 public interface BankRule {
 
-		boolean silence();
+	boolean silence();
 
-		String openingHours();
+	String openingHours();
 
-		double minimumBalance();
+	double minimumBalance();
 
-		boolean noOverdrafts();
+	boolean noOverdrafts();
 
-		boolean validIDRequired();
+	boolean validIDRequired();
 
-		boolean secureOnlineBanking();
+	boolean secureOnlineBanking();
 
-		double atmUsageLimit();
+	double atmUsageLimit();
 
-		double transactionFee();
+	double transactionFee();
 
-		boolean loanEligibilityCriteria();
+	boolean loanEligibilityCriteria();
 
-		boolean confidentiality();
+	boolean confidentiality();
 
-		boolean antiMoneyLaunderingCompliance();
+	boolean antiMoneyLaunderingCompliance();
 
-		boolean depositInsurance();
+	boolean depositInsurance();
 
-		boolean timelyLoanRepayments();
+	boolean timelyLoanRepayments();
 
-		boolean accountStatementAvailability();
+	boolean accountStatementAvailability();
 
-		int chequeClearanceTime();
+	int chequeClearanceTime();
 
-		boolean customerServiceStandards();
-
-	
+	boolean customerServiceStandards();
 
 }
