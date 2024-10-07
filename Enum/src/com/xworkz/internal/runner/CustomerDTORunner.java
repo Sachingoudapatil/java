@@ -1,7 +1,7 @@
-package com.xworkz.runner;
+package com.xworkz.internal.runner;
 
-import com.xworkz.dto.CustomerDTO;
-import com.xworkz.internal.ProductType;
+import com.xworkz.internal.constants.ProductType;
+import com.xworkz.internal.dto.CustomerDTO;
 
 public class CustomerDTORunner {
 

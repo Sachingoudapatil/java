@@ -1,4 +1,4 @@
-package com.xworkz.internal;
+package com.xworkz.internal.constants;
 
 public enum TicketType {
 	ONLINE(200), OFFLINE(250);

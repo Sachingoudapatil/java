@@ -1,7 +1,7 @@
-package com.xworkz.runner;
+package com.xworkz.internal.runner;
 
-import com.xworkz.dto.TicketBookDTO;
-import com.xworkz.internal.*;
+import com.xworkz.internal.constants.*;
+import com.xworkz.internal.dto.TicketBookDTO;
 
 public class TicketBookDTORunner {
 

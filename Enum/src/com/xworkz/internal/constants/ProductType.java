@@ -1,4 +1,4 @@
-package com.xworkz.internal;
+package com.xworkz.internal.constants;
 
 public enum ProductType {
 	KITCHEN, FOOTWEAR, FURRNITURE;

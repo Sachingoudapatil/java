@@ -1,6 +1,6 @@
-package com.xworkz.dto;
+package com.xworkz.internal.dto;
 
-import com.xworkz.internal.ProductType;
+import com.xworkz.internal.constants.ProductType;
 
 public class CustomerDTO {
 	private String name;

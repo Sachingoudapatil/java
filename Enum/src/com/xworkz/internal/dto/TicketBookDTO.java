@@ -1,6 +1,6 @@
-package com.xworkz.dto;
+package com.xworkz.internal.dto;
 
-import com.xworkz.internal.*;
+import com.xworkz.internal.constants.*;
 
 public class TicketBookDTO {
 	private String movieName;
