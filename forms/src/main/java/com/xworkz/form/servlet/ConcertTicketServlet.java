@@ -1,4 +1,4 @@
-package com.xworkz.servelet.service;
+package com.xworkz.form.servlet;
 
 import java.io.IOException;
 
@@ -6,7 +6,7 @@ import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 
-import com.xworkz.servelet.dto.ConcertTicketDTO;
+import com.xworkz.form.dto.ConcertTicketDTO;
 
 @WebServlet(loadOnStartup = 1,urlPatterns = "/concert")
 public class ConcertTicketServlet extends HttpServlet {

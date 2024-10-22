@@ -1,4 +1,4 @@
-package com.xworkz.servelet.service;
+package com.xworkz.form.servlet;
 
 
 import java.io.IOException;
@@ -10,7 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.xworkz.servelet.dto.CollegeAdmissionDTO;
+import com.xworkz.form.dto.CollegeAdmissionDTO;
+import com.xworkz.form.service.CollegeAdmissionImp;
+import com.xworkz.form.service.CollegeAdmissionService;
 
 
 @WebServlet(loadOnStartup = 1,urlPatterns = "/college")
@@ -38,6 +40,8 @@ public class CollegeAdmission extends HttpServlet {
 	
 			CollegeAdmissionDTO ref =new CollegeAdmissionDTO(name, email, convertedMobile, address, fatherName, motherName,convertedPercentage, course,convertedAge);
 			
+			CollegeAdmissionService admissionService=new CollegeAdmissionImp();
+			admissionService.validateAndSave(ref);
 			arg1.setContentType("text/html");
 			
 			PrintWriter printWriter=arg1.getWriter();

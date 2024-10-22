@@ -1,4 +1,4 @@
-package com.xworkz.servelet.dto;
+package com.xworkz.form.dto;
 
 import java.io.IOException;
 
