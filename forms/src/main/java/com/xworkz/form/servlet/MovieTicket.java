@@ -13,7 +13,7 @@ import com.xworkz.form.dto.MovieTicketDTO;
 
 
 
-@WebServlet(loadOnStartup = 1,urlPatterns = "/ticketS")
+@WebServlet(loadOnStartup = 1,urlPatterns = "/ticket")
 public class MovieTicket extends HttpServlet {
 	
 	public MovieTicket() {
