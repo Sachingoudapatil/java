@@ -12,16 +12,16 @@ import com.xworkz.collection1.dto.HRDto;
 public class HRDTORunner {
 	public static void main(String[] args) {
 
-		HRDto hrDTO1=new HRDto("sunil","BE",2 ,"chitradurga");
-		HRDto hrDTO2=new HRDto("mohan","Bcom",1 ,"davanagere");
-		HRDto hrDTO3=new HRDto("sanju","MA",4,"shivamogga");
-		HRDto hrDTO4=new HRDto("bharat","Mtech",6 ,"hubli");
-		HRDto hrDTO5=new HRDto("kamlesh","BE",8,"gadag");
-		HRDto hrDTO6=new HRDto("ajay","Mcom",1 ,"dharwad");
-		HRDto hrDTO7=new HRDto("charan","MA",0,"belgavi");
-		HRDto hrDTO8=new HRDto("deekshit","Mcom",1,"mysore");
-		HRDto hrDTO9=new HRDto("jayant","Mtech",9,"bengaluru");
-		HRDto hrDTO10=new HRDto("prakash","BE",2 ,"chitradurga");
+		HRDto hrDTO1=new HRDto("sunil","BE",2 ,"gadag");
+		HRDto hrDTO2=new HRDto("mohan","Bcom",1 ,"haveri");
+		HRDto hrDTO3=new HRDto("sanju","MA",4,"koppal");
+		HRDto hrDTO4=new HRDto("bharat","Mtech",6 ,"banglore");
+		HRDto hrDTO5=new HRDto("kamlesh","BE",8,"ramnagar");
+		HRDto hrDTO6=new HRDto("ajay","Mcom",1 ,"bagalkot");
+		HRDto hrDTO7=new HRDto("charan","MA",0,"kolar");
+		HRDto hrDTO8=new HRDto("deekshit","Mcom",1,"chikkamagalore");
+		HRDto hrDTO9=new HRDto("jayant","Mtech",9,"belgavi");
+		HRDto hrDTO10=new HRDto("prakash","BE",2 ,"hubli");
 
 		Collection<HRDto> collection=new LinkedList<HRDto>();
 		collection.add(hrDTO1);
@@ -108,7 +108,7 @@ public class HRDTORunner {
 		System.out.println("listTterator");
 		
 		while (listIterator.hasPrevious()) {
-			HRDto ref = listIterator.previous();
+			HRDto ref = listIterator.previous();	
 			System.out.println(ref);
 		}
 		
